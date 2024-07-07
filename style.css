@@ -1,0 +1,482 @@
+/* Hedder section */
+*{
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+#topmargin{
+    margin-top: 25px;
+}
+#topcolor{
+    background-color:  rgb(248, 251, 255);
+    height: 20px;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+}
+header{
+    height: 30px;
+    width: 1108.17;
+    position: sticky;
+    top: 8px;
+    left: 4px;
+    right: 4px;
+    width:1108.17;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 42px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.headbutton{
+    height: 20px;
+    width: 75px;
+    background-color:blue;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border 0.1s ease-in-out 0s;
+    transition: transform 0.2 ease-in-out;
+}
+.headbutton:hover{
+    border: 2px solid whitesmoke;
+}
+.headbutton:active {
+    transform: scale(1.1);
+}
+.headlink{
+    color: aliceblue;
+}
+#lineheader{
+    height: 20px;
+    width: 1px;
+    background-color: aliceblue;
+}
+
+/* Footer section */
+footer{
+    background-color: #0f1111;
+    height: 122px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 10px;
+}
+#footertop{
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#linefooter{
+    height: 70px;
+    width: 1px;
+    background-color: aliceblue;
+}
+.f-heading{
+    height: 22px;
+    width: 115px;
+    margin:15px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 5px;
+    color: aliceblue;
+    text-align: left;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.ftopitem{
+    height: 22px;
+    width: 115px;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 14px;
+    color: aliceblue;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border,background-color 0.1s ease-in-out 0s;
+    transition: transform 0.2 ease-in-out;
+}
+.ftopitem:hover{
+    border: 2px solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+.ftopitem:active{
+    transform: scale(1.1);
+}
+#footerbotom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.fbotitem{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+
+/* Body section */
+body{
+    background-color: rgb(248, 251, 255);
+}
+#nameprofile{
+    background-color: blue;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/blue-bg2.png);
+    background-size: cover;
+}
+#profilepic{
+    height: 200px;
+    width: 200px;
+    margin:5px;
+    background-color:aliceblue;
+    border-radius: 50%;
+}
+#profileimg{
+    height: 200px;
+    width: 200px;
+}
+#sec1index{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#handshake{
+    font-size: 35px;
+    margin: 5px;
+}
+#sec2index{
+    text-align: center;
+    margin: 20px;
+}
+#sec2buttons{
+    display: flex;
+    justify-content: center;
+}
+.sec2b{
+    height: 25px;
+    width: 85px;
+    margin: 5px;
+    background-color:blue;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border 0.1s ease-in-out 0s;
+    transition: transform 0.2 ease-in-out;
+}
+.sec2b:hover{
+    border: 2px solid black;
+}
+.sec2b:active{
+    transform: scale(1.1);
+}
+.sec2item{
+    color: aliceblue;
+}
+.secitem{
+    height: 100px;
+    width: 200px;
+    background-color:blue;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/blue-bg.png);
+    background-size: cover;
+    transition: all 0.1s ease-in-out 0s;
+    transition: transform 0.2s ease-in-out;
+}
+.secitem:hover{
+    border: 3px solid black;
+    background-color: rgb(0, 0, 202);
+    background-image: none;
+}
+.secitem:active{
+    transform: scale(0.9);
+}
+.secitemtext{
+    font-size: 32px;
+    color: aliceblue;
+    
+}
+h2{
+    color:brown;
+    font-size: 20px;
+    line-height: 12px;
+}
+h4{
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+#mohitrana{
+    height: 30px;
+    font-size: 28px;
+    color:rgb(255, 255, 255);
+    margin: 0px;
+}
+#itstd{
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 15px;
+    margin: 0px;
+}
+table{
+    background-color:rgb(238, 238, 238);
+}
+a{
+    text-decoration: none;
+}
+u{
+    text-decoration: none;
+}
+th{
+    font-size: 16px;
+    font-weight: 600;
+    width: 220px;
+    text-align: left;
+}
+td{
+    font-size: 14px;
+    font-weight: 500;
+}
+#submit{
+    height: 30px;
+    width: 90px;
+    background-color: blue;
+    font-weight: bold;
+    color: aliceblue;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color,color,border 0.1s ease-in-out 0s;
+    transition: transform 0.1s ease-in-out;
+}
+#submit:hover{
+    background-color: whitesmoke;
+    color:blue;
+    border: 2px solid black;
+}
+#submit:active{
+    transform: scale(0.9);
+}
+#resume{
+    margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#down-resume{
+    height: 40px;
+    width: 150px;
+    background-color:blue;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    transition: border,background-color 0.1s ease-in-out 0s;
+    transition: transform 0.1s ease-in-out;
+}
+#down-resume:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 202);
+}
+#down-resume:active{
+    transform: scale(0.9);
+}
+#resume-text{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: small;
+}
+.pro-btn{
+    height: 40px;
+    width: 150px;
+    background-color:blue;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: border,background-color 0.1s ease-in-out 0s;
+    transition: transform 0.1s ease-in-out;
+}
+.pro-btn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 202);
+}
+.pro-btn:active{
+    transform: scale(0.9);
+}
+#pro1btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro-txt{
+    color: aliceblue;
+    font-weight: bold;
+}
+@media screen and (orientation: portrait) {
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h4{
+        font: size 10px;
+    }
+    u{
+        font-size: 14px;
+    }
+    th{
+        font-size: 12px;
+    }
+    td{
+        font-size: 10px;
+    }
+    li{
+        font-size: 12px;
+    }
+    .f-heading{
+        height: 22px;
+        width: 115px;
+        margin:5px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 5px;
+        color:aliceblue;
+        text-align: left;
+        font-weight: 600;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    footer{
+        background-color: #0f1111;
+        height: 141.5px;
+        border-radius: 10px;
+        padding: 15px;
+        padding-left: 10px;
+    }
+    #footertop{
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #linefooter{
+        height: 100px;
+        width: 1px;
+        background-color: aliceblue;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .Address{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .ftopitem{
+        height: 22px;
+        width: 115px;
+        margin: 0px;
+        margin-left: 0px;
+        padding: 5px;
+        text-align:left;
+        font-weight: 200;
+        font-size: 10px;
+        color: aliceblue;
+        border-radius: 5px;
+    }
+    .fbotitem{
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 8px;
+        color: aliceblue;
+    }
+    #resume{
+        margin: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    #profilepic{
+        height: 100px;
+        width: 100px;
+        margin:5px;
+        background-color:aliceblue;
+        border-radius: 50%;
+    }
+    #profileimg{
+        height: 100px;
+        width: 100px;
+    }
+    #mohitrana{
+        height: 20px;
+        font-size: 18px;
+        color:rgb(255, 255, 255);
+        margin: 0px;
+    }
+    #itstd{
+        color:rgb(255, 255, 255);
+        font-size: 12px;
+        line-height: 15px;
+        margin: 0px;
+    }
+    #sec1index{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .secitem{
+        height: 40px;
+        width: 110px;
+        background-color:blue;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    .secitemtext{
+        font-size: 18px;
+        color: aliceblue;
+    }
+}
