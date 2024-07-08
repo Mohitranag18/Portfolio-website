@@ -366,57 +366,64 @@ td{
     }
     .f-heading{
         height: 22px;
-        width: 115px;
-        margin:5px;
+        width: 100px;
+        margin:0px;
         margin-left: 0px;
         margin-top: 0px;
         padding: 5px;
         color:aliceblue;
-        text-align: left;
+        text-align: center;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 14px;
         border-radius: 5px;
     }
     footer{
         background-color: #0f1111;
-        height: 141.5px;
+        height: 321.5px;
         border-radius: 10px;
         padding: 15px;
         padding-left: 10px;
     }
     #footertop{
-        height: 100px;
+        height: 280px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     #linefooter{
-        height: 100px;
-        width: 1px;
+        height: 0px;
+        width: 0px;
         background-color: aliceblue;
     }
     .contact{
         display: flex;
         flex-direction: column;
-        text-align: left;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .social{
         display: flex;
         flex-direction: column;
-        text-align: left;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .Address{
         display: flex;
         flex-direction: column;
-        text-align: left;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .ftopitem{
-        height: 22px;
-        width: 115px;
+        height: 15px;
+        width: 120px;
         margin: 0px;
         margin-left: 0px;
         padding: 5px;
-        text-align:left;
+        text-align:center;
         font-weight: 200;
         font-size: 10px;
         color: aliceblue;
@@ -432,8 +439,11 @@ td{
         margin: 20px;
        display: flex;
        flex-direction: column;
-       justify-content: center;
+       justify-content: space-evenly;
        align-items: center;
+    }
+    #resumeimg{
+        height: 400px;
     }
     #profilepic{
         height: 100px;
