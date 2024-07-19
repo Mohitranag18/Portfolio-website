@@ -1,13 +1,13 @@
 /* Hedder section */
 *{
     margin-top: 0px;
-    font-family: sans-serif;
+    font-family:Trebuchet MS;
 }
 #topmargin{
     margin-top: 25px;
 }
 #topcolor{
-    background-color:  rgb(248, 251, 255);
+    background-color:  #001d3d;
     height: 20px;
     width: 100vw;
     position: fixed;
@@ -23,7 +23,7 @@ header{
     width:1108.17;
 }
 .navbar{
-    background-color: #0f1111;
+    background-color: #000814;
     height: 42px;
     border-radius: 10px;
     margin-top: 8px;
@@ -36,7 +36,7 @@ header{
 .headbutton{
     height: 20px;
     width: 75px;
-    background-color:blue;
+    background-color: #ffd60a;
     border-radius: 12px;
     text-align: center;
     border: 2px solid transparent;
@@ -44,23 +44,24 @@ header{
     transition: transform 0.2 ease-in-out;
 }
 .headbutton:hover{
-    border: 2px solid whitesmoke;
+    border: 2.25px solid white;
+    color: white;
 }
 .headbutton:active {
     transform: scale(1.1);
 }
 .headlink{
-    color: aliceblue;
+    color: black;
 }
 #lineheader{
     height: 20px;
     width: 1px;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 /* Footer section */
 footer{
-    background-color: #0f1111;
+    background-color: #000814;
     height: 122px;
     border-radius: 10px;
     padding: 15px;
@@ -127,10 +128,11 @@ footer{
 
 /* Body section */
 body{
-    background-color: rgb(248, 251, 255);
+    background-color: #001d3d;
+    color: white;
 }
 #nameprofile{
-    background-color: blue;
+    background-color: #003566;
     border-radius: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -138,19 +140,27 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(images/blue-bg2.png);
+    /* background-image: url(images/blue-bg.png); */
     background-size: cover;
 }
 #profilepic{
     height: 200px;
     width: 200px;
     margin:5px;
-    background-color:aliceblue;
+    border: 1px solid #ffd60a;
+    background-color: #ffd60a;
     border-radius: 50%;
 }
 #profileimg{
     height: 200px;
     width: 200px;
+}
+#textbox{
+    background-color: #ffffff11;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 #sec1index{
     text-align: center;
@@ -172,55 +182,63 @@ body{
 }
 .sec2b{
     height: 25px;
-    width: 85px;
+    width: 100px;
     margin: 5px;
-    background-color:blue;
+    background-color: #003566;
+    /* background-image: url(images/blue-bg.png); */
+    background-size: cover;
     border-radius: 15px;
     border: 2px solid transparent;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     transition: border 0.1s ease-in-out 0s;
     transition: transform 0.2 ease-in-out;
 }
 .sec2b:hover{
-    border: 2px solid black;
+    border: 2px solid white;
+    background-color: #003566;
+    opacity: 80%;
 }
 .sec2b:active{
     transform: scale(1.1);
 }
 .sec2item{
-    color: aliceblue;
+    color: white;
 }
 .secitem{
     height: 100px;
     width: 200px;
-    background-color:blue;
+    background-color: #003566;
     border: 3px solid transparent;
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(images/blue-bg.png);
+    /* background-image: url(images/blue-bg.png); */
     background-size: cover;
     transition: all 0.1s ease-in-out 0s;
     transition: transform 0.2s ease-in-out;
 }
 .secitem:hover{
-    border: 3px solid black;
-    background-color: rgb(0, 0, 202);
+    border: 3px solid white;
+    background-color: #003566;
     background-image: none;
+    opacity: 80%;
 }
 .secitem:active{
     transform: scale(0.9);
 }
 .secitemtext{
     font-size: 32px;
-    color: aliceblue;
+    color: white;
     
 }
+h1{
+    color: #ffd60a;
+}
 h2{
-    color:brown;
+    color: #ffd60a;
     font-size: 20px;
     line-height: 12px;
 }
@@ -231,17 +249,24 @@ h4{
 #mohitrana{
     height: 30px;
     font-size: 28px;
-    color:rgb(255, 255, 255);
+    color: white;
     margin: 0px;
 }
 #itstd{
-    color:rgb(255, 255, 255);
+    color: white;
     font-size: 16px;
     line-height: 15px;
     margin: 0px;
 }
 table{
-    background-color:rgb(238, 238, 238);
+    background-color: #003566;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    width: 90vw;
+}
+p{
+    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -254,6 +279,7 @@ th{
     font-weight: 600;
     width: 220px;
     text-align: left;
+    color: #ffd60a;
 }
 td{
     font-size: 14px;
@@ -262,19 +288,20 @@ td{
 #submit{
     height: 30px;
     width: 90px;
-    background-color: blue;
+    background-color: #003566;
     font-weight: bold;
-    color: aliceblue;
-    border: 2px solid transparent;
+    color: white;
+    border: 2px solid white;
     border-radius: 6px;
     font-size: 14px;
     transition: background-color,color,border 0.1s ease-in-out 0s;
     transition: transform 0.1s ease-in-out;
 }
 #submit:hover{
-    background-color: whitesmoke;
-    color:blue;
-    border: 2px solid black;
+    background-color: white;
+    color: #003566;
+    border: 2px solid white;
+    opacity: 80%;
 }
 #submit:active{
     transform: scale(0.9);
@@ -288,8 +315,8 @@ td{
 #down-resume{
     height: 40px;
     width: 150px;
-    background-color:blue;
-    border: 2px solid transparent;
+    background-color: #003566;
+    border: 2px solid white;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -299,22 +326,23 @@ td{
     transition: transform 0.1s ease-in-out;
 }
 #down-resume:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(0, 0, 202);
+    border: 2px solid white;
+    background-color: #003566;
+    opacity: 80%;
 }
 #down-resume:active{
     transform: scale(0.9);
 }
 #resume-text{
-    color: aliceblue;
+    color: white;
     font-weight: bold;
     font-size: small;
 }
 .pro-btn{
     height: 40px;
     width: 150px;
-    background-color:blue;
-    border: 2px solid transparent;
+    background-color: #003566;
+    border: 2px solid white;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -324,8 +352,9 @@ td{
     transition: transform 0.1s ease-in-out;
 }
 .pro-btn:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(0, 0, 202);
+    border: 2px solid white;
+    background-color: #003566;
+    opacity: 80%;
 }
 .pro-btn:active{
     transform: scale(0.9);
@@ -336,10 +365,48 @@ td{
     align-items: center;
 }
 .pro-txt{
-    color: aliceblue;
+    color: white;
     font-weight: bold;
 }
-@media screen and (orientation: portrait) {
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 6));
+    }
+}
+.slider{
+    background-color: rgba(255, 255, 255, 0.253);
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.slide-track{
+    border-radius: 10px;
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: scroll 30s linear infinite;
+    width: calc(250px * 11);
+}
+.slide{
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.slide img {
+    height: 35px;
+}
+@media screen and (max-width: 500px) {
     p{
         font-size: 12px;
     }
@@ -356,10 +423,11 @@ td{
         font-size: 14px;
     }
     th{
-        font-size: 12px;
+        font-size: 10px;
+        font-weight: 700;
     }
     td{
-        font-size: 10px;
+        font-size: 8px;
     }
     li{
         font-size: 12px;
@@ -371,14 +439,12 @@ td{
         margin-left: 0px;
         margin-top: 0px;
         padding: 5px;
-        color:aliceblue;
         text-align: center;
         font-weight: 600;
         font-size: 14px;
         border-radius: 5px;
     }
     footer{
-        background-color: #0f1111;
         height: 321.5px;
         border-radius: 10px;
         padding: 15px;
@@ -394,7 +460,6 @@ td{
     #linefooter{
         height: 0px;
         width: 0px;
-        background-color: aliceblue;
     }
     .contact{
         display: flex;
@@ -426,14 +491,12 @@ td{
         text-align:center;
         font-weight: 200;
         font-size: 10px;
-        color: aliceblue;
         border-radius: 5px;
     }
     .fbotitem{
         margin-top: 5px;
         margin-bottom: 0px;
         font-size: 8px;
-        color: aliceblue;
     }
     #resume{
         margin: 20px;
@@ -449,7 +512,6 @@ td{
         height: 100px;
         width: 100px;
         margin:5px;
-        background-color:aliceblue;
         border-radius: 50%;
     }
     #profileimg{
@@ -459,11 +521,9 @@ td{
     #mohitrana{
         height: 20px;
         font-size: 18px;
-        color:rgb(255, 255, 255);
         margin: 0px;
     }
     #itstd{
-        color:rgb(255, 255, 255);
         font-size: 12px;
         line-height: 15px;
         margin: 0px;
@@ -477,16 +537,52 @@ td{
     }
     .secitem{
         height: 40px;
-        width: 110px;
-        background-color:blue;
+        width: 60vw;
         border-radius: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 10px;
     }
+    .pro-btn{
+        height: 30px;
+        width: 100px;
+    }
     .secitemtext{
         font-size: 18px;
-        color: aliceblue;
+    }
+    @keyframes scroll{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-200px * 6));
+        }
+    }
+    .slider{
+        background-color: rgba(255, 255, 255, 0.253);
+        height: 45px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+    .slide-track{
+        border-radius: 10px;
+        height: 45px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        animation: scroll 20s linear infinite;
+        width: calc(200px * 11);
+    }
+    .slide{
+        width: 75px;
+    }
+    .slide img {
+        height: 25px;
     }
 }
