@@ -360,7 +360,7 @@ td{
     border-radius: 10px;
     object-fit: cover;
     object-position: top;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.75);
 }
 .pro-btn{
     height: 40px;
