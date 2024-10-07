@@ -49,7 +49,7 @@ header{
 .headbutton:hover{
     border: 2.25px solid white;
     color: white;
-    background-color: #ffffff81a2;
+    background-color: white;
 }
 .headbutton:active {
     transform: scale(1.1);
