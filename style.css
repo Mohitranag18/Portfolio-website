@@ -49,7 +49,7 @@ header{
 .headbutton:hover{
     border: 2.25px solid white;
     color: white;
-    background-color: #000814;
+    background-color: rgba(255, 255, 255, 0.300);
 }
 .headbutton:active {
     transform: scale(1.1);
@@ -80,7 +80,7 @@ footer{
 #linefooter{
     height: 70px;
     width: 1px;
-    background-color: aliceblue;
+    background-color: white;
 }
 .f-heading{
     height: 22px;
@@ -89,7 +89,7 @@ footer{
     margin-left: 0px;
     margin-top: 0px;
     padding: 5px;
-    color: aliceblue;
+    color: white;
     text-align: left;
     font-weight: 600;
     border-radius: 5px;
@@ -103,14 +103,14 @@ footer{
     text-align: center;
     font-weight: 200;
     font-size: 14px;
-    color: aliceblue;
+    color: white;
     border: 2px solid transparent;
     border-radius: 8px;
     transition: border,background-color 0.1s ease-in-out 0s;
     transition: transform 0.2 ease-in-out;
 }
 .ftopitem:hover{
-    border: 2px solid whitesmoke;
+    border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.300);
 }
 .ftopitem:active{
@@ -126,7 +126,7 @@ footer{
     margin-top: 5px;
     margin-bottom: 0px;
     font-size: 12px;
-    color: aliceblue;
+    color: white;
 }
 
 
