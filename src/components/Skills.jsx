@@ -13,7 +13,7 @@ function Skills() {
         <div className="h-56 w-[40%] bg-[#1C1C1C]"></div>
       </div>
 
-      <div className="flex-col gap-8 text-white bg-[#1C1C1C] w-full h-full px-8 sm:px-16 py-8">
+      <div className="flex-col gap-8 text-white bg-[#1C1C1C] w-full h-full px-8 sm:px-6 md:px-16 py-8">
         <div className="w-full flex justify-center">
           <Title TitleText={"Skills"} color={"#FF8BFF"} />
         </div>
