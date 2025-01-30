@@ -2,7 +2,7 @@ function Forum() {
     return (
         <>
         <div className=" text-[#F3F0E0] flex justify-center items-center min-h-screen">
-            <form name="Conact me"
+            <form name="hire me"
                 method="POST"
                 data-netlify="true"
                 netlify-honeypot="bot-field"
@@ -12,7 +12,7 @@ function Forum() {
                 <input type="text"
                 placeholder="Your Full Name"
                 name="name"
-                className="w-full p-3 text-[#F3F0E0] border border-[#50DA4C] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#50DA4C] mb-4 bg-[#F3F0E0]"
+                className="w-full p-3 text-[#183717] border border-[#50DA4C] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#50DA4C] mb-4 bg-[#F3F0E0]"
                 required
                 />
 
@@ -20,7 +20,7 @@ function Forum() {
                 <input type="text"
                 placeholder="Your Email"
                 name="email"
-                className="w-full p-3 text-[#F3F0E0] border border-[#50DA4C] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#50DA4C] mb-4 bg-[#F3F0E0]"
+                className="w-full p-3 text-[#183717] border border-[#50DA4C] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#50DA4C] mb-4 bg-[#F3F0E0]"
                 required
                 />
 
@@ -29,7 +29,7 @@ function Forum() {
                 name="message"
                 placeholder="Let us know about your interest"
                 rows="5"
-                className="w-full p-3 text-[#F3F0E0] border border-[#50DA4C] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#50DA4C] mb-4 bg-[#F3F0E0]"
+                className="w-full p-3 text-[#183717] border border-[#50DA4C] rounded-lg focus:outline-none focus:ring-1 focus:ring-[#50DA4C] mb-4 bg-[#F3F0E0]"
                 ></textarea>
 
                 <div className="bot-field hidden">
@@ -39,7 +39,7 @@ function Forum() {
                 <input
                 type="submit"
                 value=">>> Send"
-                className="w-full bg-[#183717] text-[#FFDBFF] p-3 rounded-lg hover:bg-[#50DA4C] transition duration-300 cursor-pointer font-semibold mt-4"
+                className="w-full bg-[#50DA4C] text-[#183717] p-3 rounded-lg hover:bg-[#50DA4C] hover:text-[#FFDBFF] transition duration-300 cursor-pointer font-semibold mt-4"
                 />
             </form>
         </div>
