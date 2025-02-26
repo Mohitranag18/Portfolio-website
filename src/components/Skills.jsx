@@ -21,14 +21,14 @@ function Skills() {
         <div className="mt-16 h-full w-full text-[#1C1C1C] flex flex-wrap justify-center gap-8 sm:gap-16">
           <Skillbox text={"Java"} />
           <Skillbox text={"Python"} />
-          {/* <Skillbox text={"C/C++"}/> */}
+          <Skillbox text={"C/C++"}/>
           <Skillbox text={"SQL"} />
           <Skillbox text={"JavaScript"} />
           <Skillbox text={"TypeScript"} />
           <Skillbox text={"React"} />
           <Skillbox text={"Redux"} />
           <Skillbox text={"Tailwind CSS"} />
-          <Skillbox text={"Next.js"} />
+          {/* <Skillbox text={"Next.js"} /> */}
           <Skillbox text={"Django"} />
           <Skillbox text={"REST API"} />
           <Skillbox text={"Git & GitHub"} />
@@ -40,9 +40,9 @@ function Skills() {
           <Skillbox text={"Kafka"}/>
           <Skillbox text={"ElasticSearch"}/> */}
           <Skillbox text={"DSA"} />
-          {/* <Skillbox text={"OOP"}/>
+          <Skillbox text={"OOP"}/>
           <Skillbox text={"OS"}/>
-          <Skillbox text={"Networks"}/> */}
+          <Skillbox text={"Networks"}/>
           <Skillbox text={"DBMS"} />
           <Skillbox text={"Linux"} />
         </div>

@@ -44,7 +44,7 @@ function Contact() {
                     { label: "Linkedin", link: "https://www.linkedin.com/in/mohitrana18" },
                     { label: "Github", link: "https://github.com/mohitranag18" },
                     { label: "X [ Twitter ]", link: "https://twitter.com/mohitrana178635" },
-                    { label: "Peerlist", link: "https://peerlist.io/mohitrana" },
+                    { label: "Peerlist", link: "https://peerlist.io/mohitrana18" },
                     { label: "Medium", link: "https://medium.com/@mohitrana18" }
                 ].map((item, index) => (
                     <a
