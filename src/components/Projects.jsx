@@ -39,12 +39,12 @@ function Projects() {
                             </div>
                                 <h1 className="mt-4 text-3xl font-semibold">100XGROW</h1>
                                 <p className="mt-4">
-                                Comming Soon.....
+                                100XGROW is a next-gen career platform designed to simplify job searching. Powered by AI, automation, and data insights, it helps users build ATS-friendly resumes, get job recommendations, receive mentorship, and track applications—all in one place!
                                 </p>
                             </div>
                             <div>
                                 {/* Hide [+] on mobile screens */}
-                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform">[+]</p>
+                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform cursor-pointer">[+]</p>
                             </div>
                         </div>
 
@@ -78,7 +78,7 @@ function Projects() {
                             </div>
                             <div>
                                 {/* Hide [+] on mobile screens */}
-                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform">[+]</p>
+                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform cursor-pointer">[+]</p>
                             </div>
                         </div>
 
@@ -112,7 +112,7 @@ function Projects() {
                             </div>
                             <div>
                                 {/* Hide [+] on mobile screens */}
-                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform">[+]</p>
+                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform cursor-pointer">[+]</p>
                             </div>
                         </div>
 
@@ -146,7 +146,7 @@ function Projects() {
                             </div>
                             <div>
                                 {/* Hide [+] on mobile screens */}
-                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform">[+]</p>
+                                <p className="hidden lg:block text-4xl sm:text-5xl font-bold text-[#1C1C1C] hover:text-[#A600A0] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] transform cursor-pointer">[+]</p>
                             </div>
                         </div>
                     </div>
