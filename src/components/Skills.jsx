@@ -26,6 +26,7 @@ function Skills() {
           <Skillbox text={"JavaScript"} />
           <Skillbox text={"TypeScript"} />
           <Skillbox text={"React"} />
+          <Skillbox text={"React Native"} />
           <Skillbox text={"Redux"} />
           <Skillbox text={"Tailwind CSS"} />
           {/* <Skillbox text={"Next.js"} /> */}
